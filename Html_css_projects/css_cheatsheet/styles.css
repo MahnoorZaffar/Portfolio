@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222222;
+  color: #F3EFE0;
+  margin:0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: #22A39F;
+  text-align: center;
+}
+
+table {
+  border: 2px solid #22A39F;
+  width: 650px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+thead {
+  background-color: #22A39F;
+  padding: 10px;
+}
+
+td {
+  border-top: 1px solid #22A39F;
+  padding: 10px;
+}
+
+.code {
+  font-family: monospace;
+  background-color: beige;
+  padding:5px;
+  color:#222222;
+}
