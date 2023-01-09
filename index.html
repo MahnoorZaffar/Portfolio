@@ -10,7 +10,11 @@
 	</head>
 	<body class="is-preload">
 		<!-- Preloader -->
-		
+		<div class="preloader-wrapper">
+			<div id="preloader">
+				<div id="loader"></div>
+			</div>
+		</div>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -33,7 +37,7 @@
 								<li><a href="#work">HTML-CSS</a></li>
 								<li><a href="#javascript">Javascript</a></li>
 								<li><a href="#games">Games</a></li>
-								<li><a href="#digitalart">Digital Art</a></li>
+								<!-- <li><a href="#digitalart">Digital Art</a></li> -->
 								<li><a href="#about">About</a></li>
 								<li><a href="#contact">Contact</a></li>
 							</ul>
@@ -133,7 +137,7 @@
 								<p style="text-align: justify;">Snake is a video game genre where the player maneuvers a line that grows bigger after eating something, typically apples, making the snake a primary obstacle to itself.</p><em><b><a href="/Portfolio/Portfolio_projects/JavaScript_Tik-Tac-toe/index.html">View My Game</a></b></em>
 							</article>
 
-							<!-- Digital Art -->
+							<!-- Digital Art
 							<article id="digitalart">
 								<h4 class="major">Digital Art</h2>
 								<span class="image main"><img src="/Portfolio/Digital_art/Around_the_world_in_80_days__Watercolor.png" alt="" /></span>
@@ -157,7 +161,7 @@
 								<span class="image main"><img src="/Portfolio/Digital_art/Lemon_Wallpaper_.jpg" alt="" /></span>
 								<h4 class="major">Lemon (Wallpaper)</h2>
 
-							</article>
+							</article> -->
 
 						<!-- About -->
 							<article id="about">
@@ -225,11 +229,17 @@
 			<div id="bg"></div>
 
 		<!-- Scripts -->
+			<script>
+				$(window).on("load", function(){
+					$(".preloader-wrapper").fadeOut("slow")
+				});
+			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
 
 	</body>
 </html>
